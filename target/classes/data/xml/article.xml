@@ -1,0 +1,25 @@
+<XMLWrapper>
+   <list class="java.util.ArrayList">
+      <object class="ru.sfedu.coursezz.models.Article">
+         <id>120</id>
+         <bookAuthorName>Mark Twain</bookAuthorName>
+         <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+         <title>title1</title>
+         <content>content1</content>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Article">
+         <id>5589407</id>
+         <bookAuthorName>Ernest Hemingway</bookAuthorName>
+         <nameOfBook>The Old Man and the Sea</nameOfBook>
+         <title>title2</title>
+         <content>content2</content>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Article">
+         <id>120</id>
+         <bookAuthorName>Mark Twain</bookAuthorName>
+         <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+         <title>title1_NEW</title>
+         <content>content1</content>
+      </object>
+   </list>
+</XMLWrapper>

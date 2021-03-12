@@ -1,0 +1,35 @@
+2021-03-11 13:28:09 DEBUG DataProviderJdbc:52 - Creating datasource...
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:62 - CREATE TABLE IF NOT EXISTS BOOK (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), link varchar(65535), review varchar(65535), genre varchar(65535), timeReading INT);
+CREATE TABLE IF NOT EXISTS ARTICLE (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), title varchar(65535), content varchar(65535));
+CREATE TABLE IF NOT EXISTS FILM (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), country varchar(65535), year varchar(65535), producer varchar(65535), format varchar(65535));
+CREATE TABLE IF NOT EXISTS CLIENT (id BIGINT, name varchar(65535), login varchar(65535), password varchar(65535), email varchar(65535));
+CREATE TABLE IF NOT EXISTS PLAN (id BIGINT, name varchar(65535), bookId BIGINT, startDay varchar(65535) , lastDay varchar(65535), status BOOLEAN, clientId BIGINT, FOREIGN KEY(bookId) references BOOK(id) ON DELETE CASCADE ,FOREIGN KEY (clientId) references CLIENT(id) ON DELETE CASCADE );
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:52 - Creating datasource...
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:62 - CREATE TABLE IF NOT EXISTS BOOK (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), link varchar(65535), review varchar(65535), genre varchar(65535), timeReading INT);
+CREATE TABLE IF NOT EXISTS ARTICLE (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), title varchar(65535), content varchar(65535));
+CREATE TABLE IF NOT EXISTS FILM (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), country varchar(65535), year varchar(65535), producer varchar(65535), format varchar(65535));
+CREATE TABLE IF NOT EXISTS CLIENT (id BIGINT, name varchar(65535), login varchar(65535), password varchar(65535), email varchar(65535));
+CREATE TABLE IF NOT EXISTS PLAN (id BIGINT, name varchar(65535), bookId BIGINT, startDay varchar(65535) , lastDay varchar(65535), status BOOLEAN, clientId BIGINT, FOREIGN KEY(bookId) references BOOK(id) ON DELETE CASCADE ,FOREIGN KEY (clientId) references CLIENT(id) ON DELETE CASCADE );
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:366 - [public java.lang.String ru.sfedu.coursezz.models.Article.getContent(), public java.lang.String ru.sfedu.coursezz.models.Article.getTitle(), public java.lang.Long ru.sfedu.coursezz.models.InfoRes.getId(), public java.lang.String ru.sfedu.coursezz.models.InfoRes.getNameOfBook(), public java.lang.String ru.sfedu.coursezz.models.InfoRes.getBookAuthorName()]
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:380 - [content, title, id, nameofbook, bookauthorname]
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:381 - ['Content', 'Titile', 25, 'Book', 'Author']
+2021-03-11 13:28:10 DEBUG DataProviderJdbc:418 - INSERT INTO ARTICLE (content, title, id, nameofbook, bookauthorname) VALUES('Content', 'Titile', 25, 'Book', 'Author');
+2021-03-11 13:28:10 INFO  DataProviderJdbc:425 - INSERT INTO ARTICLE (content, title, id, nameofbook, bookauthorname) VALUES('Content', 'Titile', 25, 'Book', 'Author');
+2021-03-11 13:28:10 INFO  Main:73 - Record was inserted successfully
+2021-03-11 13:28:10 INFO  Main:74 - [Article{title=Titile, content='Content'}]
+2021-03-11 13:29:03 ERROR Main:301 - Invalid method name was given...
+2021-03-11 13:30:35 DEBUG DataProviderJdbc:52 - Creating datasource...
+2021-03-11 13:30:36 DEBUG DataProviderJdbc:62 - CREATE TABLE IF NOT EXISTS BOOK (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), link varchar(65535), review varchar(65535), genre varchar(65535), timeReading INT);
+CREATE TABLE IF NOT EXISTS ARTICLE (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), title varchar(65535), content varchar(65535));
+CREATE TABLE IF NOT EXISTS FILM (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), country varchar(65535), year varchar(65535), producer varchar(65535), format varchar(65535));
+CREATE TABLE IF NOT EXISTS CLIENT (id BIGINT, name varchar(65535), login varchar(65535), password varchar(65535), email varchar(65535));
+CREATE TABLE IF NOT EXISTS PLAN (id BIGINT, name varchar(65535), bookId BIGINT, startDay varchar(65535) , lastDay varchar(65535), status BOOLEAN, clientId BIGINT, FOREIGN KEY(bookId) references BOOK(id) ON DELETE CASCADE ,FOREIGN KEY (clientId) references CLIENT(id) ON DELETE CASCADE );
+2021-03-11 13:30:36 DEBUG DataProviderJdbc:52 - Creating datasource...
+2021-03-11 13:30:36 DEBUG DataProviderJdbc:62 - CREATE TABLE IF NOT EXISTS BOOK (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), link varchar(65535), review varchar(65535), genre varchar(65535), timeReading INT);
+CREATE TABLE IF NOT EXISTS ARTICLE (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), title varchar(65535), content varchar(65535));
+CREATE TABLE IF NOT EXISTS FILM (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), country varchar(65535), year varchar(65535), producer varchar(65535), format varchar(65535));
+CREATE TABLE IF NOT EXISTS CLIENT (id BIGINT, name varchar(65535), login varchar(65535), password varchar(65535), email varchar(65535));
+CREATE TABLE IF NOT EXISTS PLAN (id BIGINT, name varchar(65535), bookId BIGINT, startDay varchar(65535) , lastDay varchar(65535), status BOOLEAN, clientId BIGINT, FOREIGN KEY(bookId) references BOOK(id) ON DELETE CASCADE ,FOREIGN KEY (clientId) references CLIENT(id) ON DELETE CASCADE );
+2021-03-11 13:30:36 INFO  DataProviderJdbc:449 - [Article{title=Titile, content='Content'}]
+2021-03-11 13:30:36 INFO  Main:132 - Found records
+2021-03-11 13:30:36 INFO  Main:133 - [Article{title=Titile, content='Content'}]

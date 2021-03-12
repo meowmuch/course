@@ -1,0 +1,94 @@
+<XMLWrapper>
+   <list class="java.util.ArrayList">
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>7985233</id>
+         <bookAuthorName>Mark Twain</bookAuthorName>
+         <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+         <link>first.com</link>
+         <review>review1</review>
+         <genre>genre1</genre>
+         <timeReading>4777243</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>9743512</id>
+         <bookAuthorName>Ernest Hemingway</bookAuthorName>
+         <nameOfBook>The Old Man and the Sea</nameOfBook>
+         <link>second.com</link>
+         <review>review2</review>
+         <genre>genre2</genre>
+         <timeReading>5938669</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>545878</id>
+         <bookAuthorName>Edgar Allan Poe</bookAuthorName>
+         <nameOfBook>Tales of Edgar Allan Poe</nameOfBook>
+         <link>third.com</link>
+         <review>review3</review>
+         <genre>genre3</genre>
+         <timeReading>9655104</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>706836</id>
+         <bookAuthorName>Harper Lee</bookAuthorName>
+         <nameOfBook>To Kill a Mockingbird</nameOfBook>
+         <link>fourth.com</link>
+         <review>review4</review>
+         <genre>genre4</genre>
+         <timeReading>6790084</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>9734807</id>
+         <bookAuthorName>Jack London</bookAuthorName>
+         <nameOfBook>Hearts of Three</nameOfBook>
+         <link>fifth.com</link>
+         <review>review5</review>
+         <genre>genre5</genre>
+         <timeReading>2681447</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>9744304</id>
+         <bookAuthorName>Stephen King</bookAuthorName>
+         <nameOfBook>The Dark Tower</nameOfBook>
+         <link>sixth.com</link>
+         <review>review6</review>
+         <genre>genre6</genre>
+         <timeReading>8003515</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>8891838</id>
+         <bookAuthorName>Charles Bukowski</bookAuthorName>
+         <nameOfBook>Factotum</nameOfBook>
+         <link>seventh.com</link>
+         <review>review7</review>
+         <genre>genre7</genre>
+         <timeReading>9564571</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>8155006</id>
+         <bookAuthorName>O. Henry</bookAuthorName>
+         <nameOfBook>The Gift of the Magi</nameOfBook>
+         <link>eighth.com</link>
+         <review>review8</review>
+         <genre>genre8</genre>
+         <timeReading>2161571</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>3446351</id>
+         <bookAuthorName>William Makepeace Thackeray</bookAuthorName>
+         <nameOfBook>Vanity Fair</nameOfBook>
+         <link>ninth.com</link>
+         <review>review9</review>
+         <genre>genre9</genre>
+         <timeReading>2279631</timeReading>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Book">
+         <id>294820</id>
+         <bookAuthorName>Rudyard Kipling</bookAuthorName>
+         <nameOfBook>The Jungle Book</nameOfBook>
+         <link>tenth.com</link>
+         <review>review10</review>
+         <genre>genre10</genre>
+         <timeReading>5169611</timeReading>
+      </object>
+   </list>
+</XMLWrapper>

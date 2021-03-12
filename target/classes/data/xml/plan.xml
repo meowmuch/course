@@ -1,0 +1,164 @@
+<XMLWrapper>
+   <list class="java.util.ArrayList">
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>3118190</id>
+         <name>Plan1</name>
+         <book>
+            <id>3999960</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>4773082</timeReading>
+         </book>
+         <startDay>04-12-2020</startDay>
+         <lastDay>04-01-2021</lastDay>
+         <status>true</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>1003875</id>
+         <name>Plan2</name>
+         <book>
+            <id>9338760</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>334764</timeReading>
+         </book>
+         <startDay>05-11-2021</startDay>
+         <lastDay>05-12-2021</lastDay>
+         <status>false</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>394662</id>
+         <name>Plan3</name>
+         <book>
+            <id>8780357</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>3774769</timeReading>
+         </book>
+         <startDay>15-12-2020</startDay>
+         <lastDay>17-12-2020</lastDay>
+         <status>false</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>4618165</id>
+         <name>Plan4</name>
+         <book>
+            <id>1129357</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>227755</timeReading>
+         </book>
+         <startDay>15-12-2021</startDay>
+         <lastDay>28-12-2021</lastDay>
+         <status>false</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>5714859</id>
+         <name>Plan5</name>
+         <book>
+            <id>4478625</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>6321111</timeReading>
+         </book>
+         <startDay>30-12-2020</startDay>
+         <lastDay>05-01-2021</lastDay>
+         <status>true</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>5821221</id>
+         <name>Plan6</name>
+         <book>
+            <id>6436890</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>3640387</timeReading>
+         </book>
+         <startDay>31-12-2020</startDay>
+         <lastDay>31-01-2021</lastDay>
+         <status>false</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>2703214</id>
+         <name>Plan7</name>
+         <book>
+            <id>1981558</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>9399873</timeReading>
+         </book>
+         <startDay>17-12-2020</startDay>
+         <lastDay>19-12-2020</lastDay>
+         <status>true</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>5337464</id>
+         <name>Plan8</name>
+         <book>
+            <id>9185498</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>2689681</timeReading>
+         </book>
+         <startDay>10-12-2022</startDay>
+         <lastDay>17-12-2022</lastDay>
+         <status>true</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>9085240</id>
+         <name>Plan9</name>
+         <book>
+            <id>666082</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>3099399</timeReading>
+         </book>
+         <startDay>01-08-2020</startDay>
+         <lastDay>14-08-2020</lastDay>
+         <status>false</status>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Plan">
+         <id>3628903</id>
+         <name>Plan10</name>
+         <book>
+            <id>6743754</id>
+            <bookAuthorName>Mark Twain</bookAuthorName>
+            <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+            <link>first.com</link>
+            <review>review1</review>
+            <genre>genre1</genre>
+            <timeReading>8828626</timeReading>
+         </book>
+         <startDay>09-01-2021</startDay>
+         <lastDay>10-01-2021</lastDay>
+         <status>false</status>
+      </object>
+   </list>
+</XMLWrapper>

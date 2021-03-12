@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS BOOK (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), link varchar(65535), review varchar(65535), genre varchar(65535), timeReading INT);
+CREATE TABLE IF NOT EXISTS ARTICLE (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), title varchar(65535), content varchar(65535));
+CREATE TABLE IF NOT EXISTS FILM (id BIGINT, bookAuthorName varchar(65535), nameOfBook varchar(65535), country varchar(65535), year varchar(65535), producer varchar(65535), format varchar(65535));
+CREATE TABLE IF NOT EXISTS CLIENT (id BIGINT, name varchar(65535), login varchar(65535), password varchar(65535), email varchar(65535));
+CREATE TABLE IF NOT EXISTS PLAN (id BIGINT, name varchar(65535), bookId BIGINT, startDay varchar(65535) , lastDay varchar(65535), status BOOLEAN, clientId BIGINT, FOREIGN KEY(bookId) references BOOK(id) ON DELETE CASCADE ,FOREIGN KEY (clientId) references CLIENT(id) ON DELETE CASCADE );

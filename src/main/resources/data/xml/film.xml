@@ -1,0 +1,94 @@
+<XMLWrapper>
+   <list class="java.util.ArrayList">
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>347291</id>
+         <bookAuthorName>Mark Twain</bookAuthorName>
+         <nameOfBook>The Adventures of Tom Sawyer</nameOfBook>
+         <country>Russia</country>
+         <year>2000</year>
+         <producer>producer1</producer>
+         <format>format1</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>1013661</id>
+         <bookAuthorName>Ernest Hemingway</bookAuthorName>
+         <nameOfBook>The Old Man and the Sea</nameOfBook>
+         <country>France</country>
+         <year>2001</year>
+         <producer>producer2</producer>
+         <format>format2</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>6924783</id>
+         <bookAuthorName>Edgar Allan Poe</bookAuthorName>
+         <nameOfBook>Tales of Edgar Allan Poe</nameOfBook>
+         <country>Spain</country>
+         <year>1996</year>
+         <producer>producer3</producer>
+         <format>format3</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>9537177</id>
+         <bookAuthorName>Harper Lee</bookAuthorName>
+         <nameOfBook>To Kill a Mockingbird</nameOfBook>
+         <country>China</country>
+         <year>2010</year>
+         <producer>producer4</producer>
+         <format>format4</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>6611155</id>
+         <bookAuthorName>Jack London</bookAuthorName>
+         <nameOfBook>Hearts of Three</nameOfBook>
+         <country>Greece</country>
+         <year>1998</year>
+         <producer>producer5</producer>
+         <format>format5</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>8352467</id>
+         <bookAuthorName>Stephen King</bookAuthorName>
+         <nameOfBook>The Dark Tower</nameOfBook>
+         <country>USA</country>
+         <year>1975</year>
+         <producer>producer6</producer>
+         <format>format5</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>2198631</id>
+         <bookAuthorName>Charles Bukowski</bookAuthorName>
+         <nameOfBook>Factotum</nameOfBook>
+         <country>Italy</country>
+         <year>2007</year>
+         <producer>producer7</producer>
+         <format>format6</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>4707009</id>
+         <bookAuthorName>O. Henry</bookAuthorName>
+         <nameOfBook>The Gift of the Magi</nameOfBook>
+         <country>England</country>
+         <year>2011</year>
+         <producer>producer8</producer>
+         <format>format7</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>739297</id>
+         <bookAuthorName>William Makepeace Thackeray</bookAuthorName>
+         <nameOfBook>Vanity Fair</nameOfBook>
+         <country>Germany</country>
+         <year>2018</year>
+         <producer>producer9</producer>
+         <format>format8</format>
+      </object>
+      <object class="ru.sfedu.coursezz.models.Film">
+         <id>6588207</id>
+         <bookAuthorName>Rudyard Kipling</bookAuthorName>
+         <nameOfBook>The Jungle Book</nameOfBook>
+         <country>Denmark</country>
+         <year>1989</year>
+         <producer>producer10</producer>
+         <format>format9</format>
+      </object>
+   </list>
+</XMLWrapper>
